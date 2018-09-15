@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    background-color: orangered;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: black;
+}
+
+.container {
+    background-color: #A9D0F5;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+
+}
+
+#target-number {
+    background-color: #04B404;
+    color: white;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    font-size: 30px;
+
+}
+
+#wins {
+    background-color: #D358F7;
+    color: white;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+    font-size: 30px;
+}
+
+#losses {
+    background-color: #D358F7;
+    color: white;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+    font-size: 30px;
+}
+
+#total-score {
+    background-color: #FFFF00;
+    color: black;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+    font-size: 30px;
+}
+
