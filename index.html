@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poor+Story|Ruslan+Display" rel="stylesheet">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystal Game</title>
 
     <style>
@@ -23,6 +22,7 @@
 </head>
 
 <body background="./assets/images/oriental.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <div class="container">
         <h1>Crystal Game</h1>
@@ -45,9 +45,15 @@
     <div id="total-score" class="container">Your Total Score is: </div>
     <div id="wins" class="container">Wins: </div>
     <div id="losses" class="container">Losses: </div>
-    <div id="crystals" class="container"><img class="crystal-image" src="./assets/images/crystal 1.jpg" alt="crystals"></div>
-    
+    <div id="crystals" class="container">
+        <h2>Choose a Crystal Below:</h2>
+        <img class="crystal-image" id="crystal-1" src="./assets/images/crystal 1.jpg">
+        <img class="crystal-image" id="crystal-2" src="./assets/images/crystal 2.jpg">
+        <img class="crystal-image" id="crystal-3" src="./assets/images/crystal 3.jpg">
+        <img class="crystal-image" id="crystal-4" src="./assets/images/crystal 4.jpg">
+    </div>
 
+    <script src="./assets/javascript/game.js"></script>
 
 </body>
 

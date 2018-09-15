@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     background-color: orangered;
     padding: 20px;
+    border: solid darkblue;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
+    border: dotted black;
 
 }
 
@@ -31,25 +33,28 @@ h2 {
     padding: 20px;
     margin: 0px auto 0px auto;
     font-size: 30px;
+    text-align: center;
 
 }
 
 #wins {
-    background-color: #D358F7;
+    background-color: #380B61;
     color: white;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
     font-size: 30px;
+    text-align: center;
 }
 
 #losses {
-    background-color: #D358F7;
+    background-color: #380B61;
     color: white;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
     font-size: 30px;
+    text-align: center;
 }
 
 #total-score {
@@ -59,5 +64,6 @@ h2 {
     padding: 20px;
     margin: 10px auto 10px auto;
     font-size: 30px;
+    text-align: center;
 }
 
