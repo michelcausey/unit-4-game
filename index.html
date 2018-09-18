@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -11,14 +11,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poor+Story|Ruslan+Display" rel="stylesheet">
     <title>Crystal Game</title>
-
-    <style>
-        #crystal-image {
-            height: 200px;
-            width: 200px;
-            border: solid 1px black;
-        }
-    </style>
 
 </head>
 
@@ -46,9 +38,24 @@
     <div id="total-score" class="container">Your Total Score is: </div>
     <div id="wins" class="container">Wins: </div>
     <div id="losses" class="container">Losses: </div>
-    <div id="crystal-image"></div>
+    <div class="container">
+        <h2>Choose Your Crystal</h2>
+    </div>
 
-    <script src="./assets/javascript/game.js"></script>
+        <div id="crystal-1" style="height: 300px; width: 300px; float: left; margin-left: 150px">
+            <img src="./assets/images/crystal1.jpg" style="height: 255px; width: 255px;">
+        </div>
+        <div id="crystal-2" style="height: 300px; width: 300px; float: left;">
+            <img src="./assets/images/crystal2.jpg" style="height: 255px; width: 255px;">
+        </div>
+        <div id="crystal-3" style="height: 300px; width: 300px; float: left;">
+            <img src="./assets/images/crystal3.jpg" style="height: 255px; width: 255px;">
+        </div>
+        <div id="crystal-4" style="height: 300px; width: 300px; float: left">
+            <img src="./assets/images/crystal4.jpg" style="height: 255px; width: 255px;">
+        </div>
+
+        <script src="./assets/javascript/game.js"></script>
 
 </body>
 

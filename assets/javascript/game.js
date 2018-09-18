@@ -1,7 +1,7 @@
 var wins = 0
 var losses = 0
 var targetNumber = $("#target-number")
-var totalScore = $("#total-score")
+var totalScore = 0
 var wins = $("#wins")
 var losses = $("#losses")
 
@@ -17,34 +17,25 @@ targetNumber = Math.floor(Math.random() * 102) + 19
 console.log("Target Number: " + targetNumber)
 $("#target-number").html("The target number is: " + targetNumber)
 
-$("#crystal-image").on("click", function () {
-    console.log("You clicked a crystal")
-    console.log(crystalValue)
+$("#crystal-1").on("click", function () {
+    console.log("You clicked crystal 1")
+    var cry1Score = Math.floor(Math.random() * 12) + 1
+    console.log (cry1Score)
 });
 
-// each crystal gets a value of 12 for the game / resets after win/loss
-for (var i = 0; i < 4; i++) {
-    var crystalValue = Math.floor(Math.random() * 11) + 1;
-    console.log(crystalValue);
+$("#crystal-2").on("click", function () {
+    console.log("You clicked crystal 2")
+});
 
-    var newImage = $("<img>");
-    newImage.attr({
-        "id": "crystal-image",
-        "src": "./assets/images/crystal1.jpg",
-        "data": crystalValue
-    })
+$("#crystal-3").on("click", function () {
+    console.log("You clicked crystal 3")
+});
 
-    $("#crystal-image").append(newImage)
+$("#crystal-4").on("click", function () {
+    console.log("You clicked crystal 4")
+});
 
-    randomNumberArray.push(crystalValue)
-    console.log(randomNumberArray)
-
-    totalScore = (randomNumberArray[0] + randomNumberArray[1] + randomNumberArray[2] + randomNumberArray[3])
-    console.log(totalScore)
-
-    $("#total-score").html("Your Total Score is: " + totalScore)
 };
-}
 
 startGame()
 
