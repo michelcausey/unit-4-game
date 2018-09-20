@@ -4,32 +4,33 @@ body {
 
 h1 {
     font-size: 48px;
-    color: white;
+    color: #C70039;
     font-family: 'Ruslan Display', cursive;
     text-align: center;
-    background-color: orangered;
+    background-color:#FFC300;
     padding: 20px;
-    border: solid darkblue;
+    border: solid #82E0AA;
 }
 
 h2 {
     font-size: 36px;
-    color: black;
-    text-align: center;
+    color: yellow;
 }
 
 .container {
-    background-color: #A9D0F5;
+    background-color: #900C3F;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
     border: dotted black;
+    color: yellow;
+    width: 50%;
 
 }
 
 #target-number {
-    background-color: #04B404;
-    color: white;
+    background-color: #82E0AA;
+    color: #FF5733;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 0px auto 0px auto;
@@ -59,12 +60,11 @@ h2 {
 }
 
 #total-score {
-    background-color: #FFFF00;
-    color: black;
+    background-color: #8F2CC8;
+    color: yellow;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
     font-size: 30px;
     text-align: center;
 }
-
