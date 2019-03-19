@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+/* h1 {
     font-size: 48px;
     color: #C70039;
     font-family: 'Ruslan Display', cursive;
@@ -11,21 +11,39 @@ h1 {
     padding: 20px;
     border: solid #82E0AA;
 }
-
+*/
 h2 {
     font-size: 36px;
-    color: yellow;
 }
+
+#game-title {
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    border: 1px black solid;
+}
+
+.knockout {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
 
 .container {
     background-color: #900C3F;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 10px auto 10px auto;
-    border: dotted black;
-    color: yellow;
-    width: 50%;
-
+    color: black;
+    border: yellow 1px dashed
 }
 
 #target-number {
@@ -36,35 +54,89 @@ h2 {
     margin: 0px auto 0px auto;
     font-size: 30px;
     text-align: center;
+}
 
+#instructions {
+    padding: 20px;
+    margin-top: 5px;
+    background-color: white;
+    font-size: 20px;
+    border: 1px black solid;
+}
+
+#scores {
+    padding: 20px; 
+    margin-top: 5px;
+    background-color: white;
+    font-size: 30px;
+    border: 1px black solid;
+}
+
+#crystals-go-here {
+    padding: 20px; 
+    margin-top: 5px;
+    background-color: white;
+    font-size: 25px;
+    border: 1px black solid;
 }
 
 #wins {
-    background-color: #380B61;
+    background-color: black;
     color: white;
     font-family: 'Poor Story', cursive;
     padding: 20px;
-    margin: 10px auto 10px auto;
-    font-size: 30px;
-    text-align: center;
+    margin: 5px auto 5px auto;
+    width: 50%;
+    font-size: 19px;
 }
 
 #losses {
-    background-color: #380B61;
+    background-color: black;
     color: white;
     font-family: 'Poor Story', cursive;
     padding: 20px;
-    margin: 10px auto 10px auto;
-    font-size: 30px;
-    text-align: center;
+    margin: 5px auto 5px auto;
+    width: 50%;
+    font-size: 19px;
+
+}
+
+#target-number {
+    background-color: black;
+    color: white;
+    font-family: 'Poor Story', cursive;
+    padding: 20px;
+    margin: 5px auto 5px auto;
+    width: 50%;
+    font-size: 19px;
 }
 
 #total-score {
-    background-color: #8F2CC8;
-    color: yellow;
+    background-color: black;
+    color: white;
     font-family: 'Poor Story', cursive;
     padding: 20px;
-    margin: 10px auto 10px auto;
-    font-size: 30px;
+    margin: 5px auto 5px auto;
+    width: 50%;
     text-align: center;
+    font-size: 19px;
+}
+
+#crystal-1 {
+    float: left;
+    border: 1px black solid;
+}
+
+#crystal-2 {
+    float: left;
+    border: 1px black solid;
+}
+
+#crystal-3 {
+    float: left;
+    border: 1px black solid;
+}
+
+#crystal-4 {
+    border: 1px black solid;
 }
