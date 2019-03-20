@@ -14,12 +14,14 @@ body {
 */
 h2 {
     font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #game-title {
     font-size: 100px;
     text-align: center;
-    background-color: white;
+    background-color: lightgrey;
     border: 1px black solid;
 }
 
@@ -59,15 +61,16 @@ h2 {
 #instructions {
     padding: 20px;
     margin-top: 5px;
-    background-color: white;
+    background-color: lightgrey;
     font-size: 20px;
     border: 1px black solid;
+    text-align: center;
 }
 
 #scores {
     padding: 20px; 
     margin-top: 5px;
-    background-color: white;
+    background-color: lightgrey;
     font-size: 30px;
     border: 1px black solid;
 }
@@ -82,7 +85,7 @@ h2 {
 
 #wins {
     background-color: black;
-    color: white;
+    color: lightgrey;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 5px auto 5px auto;
@@ -92,7 +95,7 @@ h2 {
 
 #losses {
     background-color: black;
-    color: white;
+    color: lightgrey;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 5px auto 5px auto;
@@ -103,7 +106,7 @@ h2 {
 
 #target-number {
     background-color: black;
-    color: white;
+    color: lightgrey;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 5px auto 5px auto;
@@ -113,7 +116,7 @@ h2 {
 
 #total-score {
     background-color: black;
-    color: white;
+    color: lightgrey;
     font-family: 'Poor Story', cursive;
     padding: 20px;
     margin: 5px auto 5px auto;
